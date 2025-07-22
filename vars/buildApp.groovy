@@ -11,3 +11,10 @@ def buildingApplication() {
 def deployingApplication() {
     echo "Deploying the application..."
 }
+
+def thisIsPipelineOne() {
+    echo "This is pipeline one"
+}
+def thisIsPipelineTwo() {
+    echo "This is pipeline two"
+}
