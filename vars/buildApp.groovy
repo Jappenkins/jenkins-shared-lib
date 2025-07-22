@@ -1,6 +1,7 @@
 
 def installingDependencies() {
     echo "Installing dependencies..."
+    sh "touch /tmp/test.txt"
 }
 def runningTests() {
     echo "Running tests..."
